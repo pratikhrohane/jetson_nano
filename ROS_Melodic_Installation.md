@@ -43,3 +43,21 @@ Check ROS Version
 ```
 rosversion -d
 ```
+___
+
+Create Catkin Workspace
+```
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/
+```
+
+Configure Catkin Workspace
+```
+catkin_make
+```
+Update .bashrc File
+```
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc 
+source ~/.bashrc
+```
+***
