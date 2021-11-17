@@ -1,0 +1,2 @@
+### PIP install 
+sudo apt-get install -y python3-pip
